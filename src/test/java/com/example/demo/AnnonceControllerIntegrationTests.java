@@ -15,7 +15,6 @@ public class AnnonceControllerIntegrationTests {
 	@Autowired
 	private TestRestTemplate restTemplate;
 
-	// Méthode d'aide pour créer une annonce de test
 	private Annonce createTestAnnonce(String title) {
 		Annonce annonce = new Annonce();
 		annonce.setTitle(title);
